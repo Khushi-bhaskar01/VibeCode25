@@ -29,11 +29,12 @@ export default function Landing() {
   ];
 
   const stats = [
-    { number: "1000+", label: "Developers" },
-    { number: "500+", label: "Hackathons Tracked" },
-    { number: "95%", label: "Success Rate" },
-    { number: "24/7", label: "Available" }
-  ];
+  { number: "∞", label: "Hackathons Possible" },
+  { number: "🚀", label: "Beta in Progress" },
+  { number: "100%", label: "Open Source Love" },
+  { number: "24/7", label: "Your Tracker" }
+];
+
 
   return (
     <div className="min-h-screen bg-background">
@@ -127,28 +128,6 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* Testimonial Section */}
-      <section className="py-20 lg:py-32 bg-gradient-secondary">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
-            <div className="flex justify-center space-x-1 mb-6">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-6 h-6 fill-primary text-primary" />
-              ))}
-            </div>
-            
-            <blockquote className="text-2xl md:text-3xl font-medium text-foreground">
-              "HackTracker transformed how I manage my hackathon portfolio. 
-              I can finally see my growth as a developer and share my journey with confidence."
-            </blockquote>
-            
-            <div className="space-y-2">
-              <div className="font-semibold text-lg">Sarah Chen</div>
-              <div className="text-muted-foreground">Full-Stack Developer & 20+ Hackathon Winner</div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="py-20 lg:py-32">
@@ -177,7 +156,7 @@ export default function Landing() {
       <footer className="border-t border-border/50 py-8">
         <div className="container mx-auto px-4">
           <div className="text-center text-muted-foreground">
-            <p>&copy; 2024 HackTracker. Built with ❤️ for the developer community.</p>
+            <p>&copy; 2025 HackTracker. Built with ❤️ for the developer community.</p>
           </div>
         </div>
       </footer>
