@@ -114,12 +114,12 @@ export const HackathonForm = ({
       techStack: Array.isArray(techStack) ? techStack.map(item => String(item)) : []
     });
 
-    toast({
-      title: "Success",
-      description: initialData
-        ? "Hackathon updated successfully!"
-        : "Hackathon added successfully!",
-    });
+    // toast({
+    //   title: "Success",
+    //   description: initialData
+    //     ? "Hackathon updated successfully!"
+    //     : "Hackathon added successfully!",
+    // });
 
     form.reset();
     setTechStack([]);
