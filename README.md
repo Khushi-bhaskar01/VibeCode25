@@ -3,6 +3,9 @@
 **HackTracker** is a full-stack MERN web application that helps developers and students **track their hackathon journey**, **manage certificates**, and **showcase achievements publicly** — all in one place.
 
 ---
+## Live Demo
+
+ [Click me!](https://hacktracker.netlify.app)
 
 ## 🌟 Key Features
 
