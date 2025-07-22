@@ -126,11 +126,12 @@ export const HackathonForm = ({
     onClose();
 
   } catch (error) {
-    toast({
-      title: "Error",
-      description: error instanceof Error ? error.message : "Something went wrong",
-      variant: "destructive",
-    });
+    console.error("Silent error:", error);
+    // toast({
+    //   title: "Error",
+    //   description: error instanceof Error ? error.message : "Something went wrong",
+    //   variant: "destructive",
+    // });
   } finally {
     setLoading(false);
   }
